@@ -11,6 +11,7 @@ find_package(OpenMP REQUIRED)
 add_executable(SeePlusPlus
     src/main.cpp
     src/seePlusPlus.cpp
+    src/FindAvgFrame.cpp
     src/decoder.cpp
   )
 
