@@ -28,7 +28,7 @@ target_include_directories(SeePlusPlus PRIVATE
 
 target_link_libraries(SeePlusPlus PRIVATE ${OpenCV_LIBS} OpenMP::OpenMP_CXX)
 
-target_compile_options(SeePlusPlus PRIVATE -O3 -march=native)
+target_compile_options(SeePlusPlus PRIVATE -O3 -march=native -mavx2)
 
 message(STATUS "OpenCV library status:")
 message(STATUS "    version: ${OpenCV_VERSION}")
