@@ -17,6 +17,7 @@ add_executable(SeePlusPlus
     src/main.cpp
     src/seePlusPlus.cpp
     src/decoder.cpp
+    src/KNN.cpp
   )
 
 if(OpenMP_CXX_FOUND)
